@@ -22,7 +22,7 @@
                                 <li>Paciente: <strong>{{ consultation.patient_name || 'Indefinido'}}</strong></li>
                                 <li>Marcado em: <strong>{{ normalizeTimestamp(consultation.starts_at) }}</strong></li>
                                 <li>Termina em: <strong>{{ normalizeTimestamp(consultation.ends_at) }}</strong></li>
-                              <li>Link do Atendimento: <strong><a href="{{url}}/room?r={{consultation.room}}">{{url || 'intramedicos.com.br'}}/room?r={{consultation.room}}</a></strong></li>
+                              <li>Link do Atendimento: <strong><a href="{{url}}/room?r={{consultation.room}}">{{url || 'telemed.com.br'}}/room?r={{consultation.room}}</a></strong></li>
                                 <li>Senha do Médico: <strong>{{consultation.doctor_password}}</strong></li>
                                 <li>Senha do Paciente: <strong>{{consultation.patient_password}}</strong></li>
                                 <li>Observações: <strong>{{consultation.description || 'Nenhuma'}}</strong></li>
